@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Dashboard",
+        "icon": "LayoutDashboard",
+        "href": "/home/dashboard"
+    },
+    {
+        "title": "Cadastros",
+        "icon": "Database",
+        "href": "/home/cadastros",
+        "hasSubmenu": true,
+        "submenu": [
+            {
+                "title": "Projeto",
+                "icon": "Users",
+                "href": "/projeto"
+            },
+            {
+                "title": "Fornecedores",
+                "icon": "Users",
+                "href": "/fornecedores"
+            },
+            {
+                "title": "Vinculo",
+                "icon": "Building",
+                "href": "/vinculo"
+            },
+            {
+                "title": "Dotação",
+                "icon": "Users",
+                "href": "/dotacao"
+            },
+            {
+                "title": "Ceps",
+                "icon": "MapPin",
+                "href": "/ceps"
+            },
+            {
+                "title": "Plano de contas",
+                "icon": "FileText",
+                "href": "/planocontas"
+            },
+            {
+                "title": "Contas de Banco",
+                "icon": "FileText",
+                "href": "/contasbanco"
+            },
+            {
+                "title": "Receitas",
+                "icon": "FileText",
+                "href": "/receitas"
+            },
+            {
+                "title": "Caracteristica Peculiar",
+                "icon": "FileText",
+                "href": "/caracteristicapeculiar"
+            },
+            {
+                "title": "Despesas",
+                "icon": "FileText",
+                "href": "/despesas"
+            }
+        ]
+    },
+    {
+        "title": "Lançamentos",
+        "icon": "FileText",
+        "href": "/home/lancamentos",
+        "hasSubmenu": true,
+        "submenu": [
+            {
+                "title": "Receitas Orçamentárias",
+                "icon": "Folder",
+                "href": "/receitasorcamentarias",
+                "hasSubmenu": true,
+                "submenu": [
+                    {
+                        "title": "Arrecadação",
+                        "icon": "FileText",
+                        "href": "/arrecadacao"
+                    },
+                    {
+                        "title": "Estorno",
+                        "icon": "FileText",
+                        "href": "/estorno"
+                    },
+                    {
+                        "title": "Arrecadação via Banco",
+                        "icon": "FileText",
+                        "href": "/arrecadacaobanco"
+                    },
+                    {
+                        "title": "Reestimativa",
+                        "icon": "FileText",
+                        "href": "/reestimativa"
+                    },
+                    {
+                        "title": "Lançamento",
+                        "icon": "FileText",
+                        "href": "/lancamento"
+                    }
+                ]
+            }
+        ]
+    }
+]
